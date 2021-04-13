@@ -1,0 +1,31 @@
+{
+  "name": "surf-app",
+  "version": "1.0.0",
+  "description": "Typescript Nodejs api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "lint": "eslint ./src ./test --ext .ts",
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}

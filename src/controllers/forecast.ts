@@ -38,7 +38,7 @@ export class ForecastController {
               "waveHeight": 0.46,
               "windDirection": 310.48
             }] }
-          ])
+          ]);
 
     }
 }

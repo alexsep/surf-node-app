@@ -1,8 +1,8 @@
+import './util/module-alias';
 import { Server } from '@overnightjs/core';
 import bodyParser from 'body-parser';
 import { Application } from 'express';
 import { ForecastController } from './controllers/forecast';
-import './util/module-alias';
 
 
 export class SetupServer extends Server {
@@ -28,4 +28,5 @@ export class SetupServer extends Server {
         const forecastController = new ForecastController();
         this.addControllers([forecastController]);
     }
+    
 }

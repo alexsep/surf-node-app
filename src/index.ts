@@ -1,1 +1,1 @@
-console.log("Subindo primeira aplicação node")
+console.log('Subindo primeira aplicação node');
